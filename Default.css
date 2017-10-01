@@ -1,79 +1,98 @@
- h1 {
-     text-align: center
- }
+body {
+    background-color: beige;
+    margin-left: 0
+}
 
- body {
-     font-size: 3.5vw;
-     background-color: beige;
-     margin-left: 0
- }
+h1 {
+    text-align: center
+}
 
- .b {
-     font-family: Courier New;
-     margin-left: 20px
- }
+.a {
+    font-size: 3.5vw;
 
- @media only screen and (min-width:635px) {
-     body {
-         font-size: 2vw
-     }
- }
+}
 
- @media only screen and (min-width:765px) {
-     .a {
-         font-size: 2vw
-     }
-     .b {
-         font-size: 2.5vw;
-     }
- }
+.b {
+    font-size: 5vw;
+    background-color: beige;
+    margin-left: 0
+}
 
- @media only screen and (min-width:1200px) {
-     .a {
-         font-size: 1.45vw
-     }
-     .b {
-         font-size: 1.85vw;
-     }
- }
+div.b > p {
+    font-family: Courier New;
+    margin-left: 20px
+}
 
- ul {
-     list-style-type: square
- }
+@media only screen and (min-width:635px) {
+    body {
+        font-size: 2vw
+    }
+}
 
- .c {
-     width: 200%;
-     text-align: center;
-     border: none;
-     height: 1px;
-     color: black;
-     background-color: black
- }
+@media only screen and (min-width:765px) {
+    .a {
+        font-size: 2vw
+    }
+    .b {
+        font-size: 2.5vw;
+    }
+}
 
- .Home {
-     color: black
- }
+@media only screen and (min-width:1200px) {
+    .a {
+        font-size: 1.45vw
+    }
+    .b {
+        font-size: 1.85vw;
+    }
+}
 
- .United {
-     color: red
- }
+@media only screen and (min-width:1600px) {
+    .a {
+        font-size: 1.55vw
+    }
+    .b {
+        font-size: 1.95vw;
+    }
+}
 
- .City {
-     color: deepskyblue
- }
+ul {
+    list-style-type: square
+}
 
- .Chelsea {
-     color: blue
- }
+.c {
+    width: 200%;
+    text-align: center;
+    border: none;
+    height: 1px;
+    color: black;
+    background-color: black
+}
 
- .Liverpool {
-     color: crimson
- }
+.Home {
+    color: black
+}
 
- .Barcelona {
-     color: #6a00e5
- }
+.United {
+    color: red
+}
 
- .Real {
-     color: #006ebf
- }
+.City {
+    color: deepskyblue
+}
+
+.Chelsea {
+    color: blue
+}
+
+.Liverpool {
+    color: crimson
+}
+
+.Barcelona {
+    color: #6a00e5
+}
+
+.Real {
+    color: #006ebf
+}
