@@ -1,72 +1,51 @@
-body {
-    background-color: beige;
-    margin-left: 0
-}
-
 h1 {
     text-align: center
 }
 
-.a {
-    font-size: 3.5vw;
-
-}
-
-.b {
-    font-size: 5vw;
-    background-color: beige;
-    margin-left: 0
-}
-
 div.b > p {
     font-family: Courier New;
-    margin-left: 20px
+    margin-left: 1vw;
+    margin-top: 0vw;
+    font-size: 4.5vw;
+    text-align: center
 }
 
-@media only screen and (min-width:635px) {
-    body {
-        font-size: 2vw
-    }
-}
-
-@media only screen and (min-width:765px) {
-    .a {
-        font-size: 2vw
-    }
-    .b {
-        font-size: 2.5vw;
+@media only screen and (min-width:500px) {
+    div.b > p {
+        margin-bottom: 0.9vw;
+        font-size: 3.85vw;
     }
 }
 
-@media only screen and (min-width:1200px) {
-    .a {
-        font-size: 1.45vw
+@media only screen and (min-width:700px) {
+    div.b > p {
+        margin-bottom: 0.8vw;
+        font-size: 2.95vw;
     }
-    .b {
-        font-size: 1.85vw;
+}
+
+@media only screen and (min-width:1000px) {
+    div.b > p {
+        margin-bottom: 0.7vw;
+        font-size: 2.4vw;
     }
 }
 
 @media only screen and (min-width:1600px) {
-    .a {
-        font-size: 1.55vw
-    }
-    .b {
-        font-size: 1.95vw;
+    div.b > p {
+        margin-bottom: 0.7vw;
+        font-size: 2.25vw;
     }
 }
 
 ul {
-    list-style-type: square
+    list-style-type: square;
+    display: inline-block;
+    text-align: left
 }
 
-.c {
-    width: 200%;
-    text-align: center;
-    border: none;
-    height: 1px;
-    color: black;
-    background-color: black
+section {
+    text-align: center
 }
 
 .Home {
@@ -89,10 +68,14 @@ ul {
     color: crimson
 }
 
+.Arsenal {
+    color: darkred
+}
+
 .Barcelona {
-    color: #6a00e5
+    color: #6900e3
 }
 
 .Real {
-    color: #006ebf
+    color: #0061a9
 }
